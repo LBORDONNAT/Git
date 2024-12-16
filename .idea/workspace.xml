@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76f45450-f3bf-4cd7-b60c-8d7656a7632f" name="Changes" comment="mma">
-      <change beforePath="$PROJECT_DIR$/portefolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portefolio/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="76f45450-f3bf-4cd7-b60c-8d7656a7632f" name="Changes" comment="mma" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734361457280</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="mma">
+      <option name="closed" value="true" />
+      <created>1734361747411</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1734361747411</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
