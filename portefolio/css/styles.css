@@ -1,22 +1,123 @@
-/* Styles généraux */
 body {
-
+    background-color: #000;
+    background-image: url('../images/imperium-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(0, 255, 234);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
-
-header {
-
+.header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 2px solid rgb(0, 255, 242);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
-
-nav {
-
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
 }
-
-/* Styles pour les sections */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li {
+    margin: 0;
+}
+.navbar ul li a {
+    color: rgb(0, 255, 255);
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+.navbar ul li a:hover {
+    color: #fff;
+}
+.header-content {
+    text-align: center;
+    padding: 60px 0 20px; /* Adjusted padding to separate from navbar */
+}
+.holographic {
+    background: rgba(0, 0, 0, 0.8); /* Increased contrast for better readability */
+    border: 1px solid rgb(0, 255, 255);
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    animation: flicker 5.5s infinite alternate;
+}
+@keyframes flicker {
+    0% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+    color: rgb(0, 238, 255); /* Ensuring the text color is bright enough */
+    text-shadow: 2px 2px 4px rgba(0, 247, 255, 0.7); /* Adding text shadow for better readability */
+}
 .section {
-
+    margin-bottom: 20px;
+    padding-top: 60px; /* To avoid content being hidden behind the fixed header */
 }
-
-/* Pied de page */
-footer {
-
+p {
+    line-height: 1.6;
+    color: rgb(0, 247, 255); /* Ensuring the text color is bright enough */
+    font-family: 'Roboto', sans-serif; /* Adding a more readable font for the text */
+}
+img.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 255, 242, 0.5);
+}
+.cv-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rgb(0, 255, 255);
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.cv-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.profile-card {
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid rgb(0, 225, 255);
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    text-align: left;
+}
+.profile-card h3 {
+    font-family: 'Cinzel', serif;
+    color: rgb(0, 255, 221);
+    text-shadow: 2px 2px 4px rgba(0, 255, 242, 0.7);
+}
+.profile-card p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 255, 221);
+    line-height: 1.6;
 }
