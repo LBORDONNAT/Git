@@ -87,7 +87,7 @@ img.profile-photo {
     border: 2px solid rgb(0, 255, 255);
     box-shadow: 0 0 10px rgba(0, 255, 242, 0.5);
 }
-.cv-button {
+.cv-button, .cta {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
@@ -103,6 +103,12 @@ img.profile-photo {
     background-color: #fff;
     color: #000;
 }
+
+.cta:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 .profile-card {
     background: rgba(0, 0, 0, 0.9);
     border: 1px solid rgb(0, 225, 255);
