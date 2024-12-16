@@ -1,43 +1,103 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Warhammer 40k</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-        
-        </nav>
+<header class="header">
 
-    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="presentation.html">Présentation</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="biography.html">Biographie</a></li>
+            <li><a href="projects.html">Projets</a></li>
+        </ul>
+    </nav>
 
-    <main>
+</header>
 
-        <section id="portfolio" class="portfolio">
+<main>
 
-            <h2>Mes Projets :</h2>
+    <section class="holographic section">
+        <h2>Qui suis-je ?</h2>
+        <div class="profile-card">
+            <img src="./images/your-photo.jpg" alt="Votre Photo" class="profile-photo">
+            <h3>BORDONNAT Léo</h3>
+            <p><strong>Job :</strong> Créateur Numérique</p>
+            <p><strong>Spécialité :</strong> Dev web et web mobile</p>
+            <p><strong>Affiliation :</strong> F@brique Numérique du 41</p>
+            <p><strong>Compétences :</strong> Création d'histoires et Programmation</p>
+            <p><strong>Équipement :</strong> Ordinateur, Logiciels de programmation, IA, Logiciels de montages</p>
+            <p>Je suis BORDONNAT Léo, un passionné d'histoire, de monde imaginaire et un jeune développeur web.
+                Mon travail s'inspire de mes connaissance historique et personnelle,
+                intégrant des éléments d'histoire, de science-fiction et de fantaisie dans chaque projet.</p>
+            <a href="path/to/your/cv.pdf" class="cv-button" download>Télécharger mon CV</a>
+        </div>
+    </section>
 
-            <div class="project">
-                <h3>Projet 1: Voyage au coeur de la Machine.</h3>
-                <p>Vous retrouverez grâce au boutons ci-dessous un fichier pdf d'un projet personnel, ce projet est un début d'histoire
-                    combinant le futur de l'humaniter avec un passage à bord d'un croiseur de l'Adeptus Aspartes de l'Univers de Warhammer 40K.					<br><br>
-                    Mon texte n'est actuellement pas agrémenté d'images, ce qui sera le cas dans le futur.
-                    Ce texte sera ensuite convertie en mini jeu textuel de type aventure ou RPG, avec de l'exploration
-                    et de la gestion de la peur du personnage.</p>
-                <a href="voyage_au_coeur_de_la_machine.pdf" class="cta">Lisez moi ou télécharger moi !</a>
-            </div>
+    <section class="holographic section">
 
-            <div class="project">
-                <h3>Projet 2:</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+        <h2>À propos de moi :</h2>
 
-        </section>
+        <div class="about-content">
+            <p>
+                Je m'appelle BORDONNAT Léo et je suis passionné par l'histoire, la littérature et l'informatique,
+                j'ai décidé de devenir développeur web pour allier mes passions à la technologie.
+                J'aime créer des histoires tout en essayant de faire rêver les personnes qui me lisent. <br><br>
+                Je suis aujourd'hui à la recherche d'une altérnance dans le domaine du développement web ou dans la
+                création numérique.
+            </p>
+        </div>
 
-    </main>
+    </section>
+
+    <section class="holographic section">
+
+        <h2>Biographie :</h2>
+
+        <div class="biography-content">
+            <p>Depuis mon plus jeune âge, j'ai été fasciné par les récits historiques et les œuvres littéraires.
+                Cette passion m'a conduit à explorer les profondeurs de l'histoire et à m'immerger dans
+                des mondes fictifs captivants.<br><br>
+                Après des années à étudier et à écrire,
+                j'ai décidé de me lancer dans le développement web pour donner vie à mes histoires et
+                partager mes connaissances avec le monde.
+                Aujourd'hui, je combine mes compétences en narration et en technologie
+                pour créer des expériences web uniques et engageantes.</p>
+        </div>
+
+    </section>
+
+    <section class="holographic section">
+
+        <h2>Mes Projets :</h2>
+
+        <div class="profile-card">
+            <h3>Projet 1: Voyage au coeur de la Machine.</h3>
+            <p>Vous retrouverez grâce au boutons ci-dessous un fichier pdf d'un projet personnel, ce projet est un début d'histoire
+                combinant le futur de l'humaniter avec un passage à bord d'un croiseur de l'Adeptus Aspartes de l'Univers de Warhammer 40K.					<br><br>
+                Mon texte n'est actuellement pas agrémenté d'images, ce qui sera le cas dans le futur.
+                Ce texte sera ensuite convertie en mini jeu textuel de type aventure ou RPG, avec de l'exploration
+                et de la gestion de la peur du personnage.</p>
+            <a href="voyage_au_coeur_de_la_machine.pdf" class="cta">Lisez moi ou télécharger moi !</a>
+        </div>
+
+        <div class="project">
+            <h3>Projet 2:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+    </section>
+
+</main>
 
     <footer>
         <p>© 2024 Mon Portfolio.</p>
